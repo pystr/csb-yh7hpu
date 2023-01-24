@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+
+    <script>
+      const JsonData=[
+        {
+          id:"Resim1"
+          type:"img",
+          width:35%,
+          height:20%,
+          left:5%,
+          top:2%,
+          src:'https://arkeofili.com/wp-content/uploads/2020/07/ayasofya1.jpg'
+        }
+      ]
+    </script>
+  </head>
+  <body>
+    <img
+      style="left: 0%; top: 2%; position: absolute; width: 35%; height: 20%;"
+      src="https://arkeofili.com/wp-content/uploads/2020/07/ayasofya1.jpg"
+    />
+    <div
+      style="
+        left: 36%;
+        top: 2%;
+        position: absolute;
+        height: 20%;
+        width: 65%;
+        word-break: normal;
+        font-size: 5vw;
+      "
+    >
+      This is a static template, there is no bundler or bundling involved!
+    </div>
+  </body>
+</html>
